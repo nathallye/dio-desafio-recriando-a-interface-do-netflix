@@ -24,10 +24,10 @@ header .container {
   
 }
 
-header .logo-netflix {
+header .logo-devflix {
   color: var(--red);
   font-family: 'Netflix Sans', Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 header nav a {
@@ -47,14 +47,14 @@ main {
 
 /*CSS filme principal*/
 main .container {
-  margin: 0 60% 0 2.5%; /*Topo/direita/infeior/esquerda*/
+  margin: 0 50% 0 2.5%; /*Topo/direita/infeior/esquerda*/
 }
 
-main .main-movie {
+main .main-bootcamp {
   font-size: 12px;
-  background: linear-gradient(rgba(0,0,30), rgba(0,0,0,.20)100%), url("../img/capa-hotel-transilvania-3.jpg");
+  background: linear-gradient(rgba(0,0,30), rgba(0,0,0,.50)100%), url("../img/bootcamp-inter.jpeg");
 
-  height: 400px;
+  height: 330px;
   background-size: cover;
 
   display: flex; /*Só quem herda o display flex são as filhas direta dessa div, a partir do momento que declaramos outra div e que não é uma filha direta, vem com display: block*/
@@ -63,12 +63,12 @@ main .main-movie {
   align-items: flex-start;
 }
 
-main .main-movie .movie-title{
+main .main-bootcamp .bootcamp-title{
   margin-top: 10%;
   font-size: 30px;
 }
 
-main .main-movie .movie-description {
+main .main-bootcamp .bootcamp-description {
   line-height: normal;
   margin-top: 1.5%;
   margin-bottom: 40px;
@@ -86,12 +86,15 @@ main .main-movie .movie-description {
   transition: .3s ease all;
 }
 
-.buttons-main-movie .button-wacth {
+.buttons-main-bootcamp .button-wacth {
   text-shadow: 2px 2px 4px rgb(0,0,0,.45);
+  text-decoration-line: none;
+  color: var(--black);
 }
 
-.buttons-main-movie .button-info {
+.buttons-main-bootcamp .button-info {
   background-color: rgba(109, 109, 110, .70);
+  text-decoration-line: none;
   color: white;
 }
 
@@ -103,25 +106,24 @@ main .main-movie .movie-description {
   background-color: rgb(88, 88, 88, .50);
 }
 
-.buttons-main-movie i {
+.buttons-main-bootcamp i {
   margin-right: 5px;
 }
 
 /*Carrosel*/
-.carousel-movies {
+.carousel-courses, .carousel-bootcamps, .carousel-labs, .carousel-accelerations {
+  padding: 0 2.5%;
   margin-top: 1%;
 }
 
-.carousel-movies .carousel-movies-title {
+.carousel-courses-title, .carousel-bootcamps-title, .carousel-labs-title, .carousel-accelerations-title {
+  text-decoration-line: none;
   color: white;
+  font-size: 18px;
 }
 
-.box-movie {
+.box-movie, .box-bootcamp, .box-lab {
   height: 100%;
   width: 100%;
   display: block;
-}
-
-.carousel-series .carousel-series-title {
-  color: white;
 }

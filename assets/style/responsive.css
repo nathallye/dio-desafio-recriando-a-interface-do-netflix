@@ -1,11 +1,10 @@
 @media screen and (max-width: 810px) {
-  main .main-movie .movie-title {
+  main .main-bootcamp .bootcamp-title {
     font-size: 26px;
   }
   
   .button-wacth, .button-info {
-    width: 100px;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .button-info {
@@ -21,44 +20,42 @@
     font-size: 14px;
   }
 
-  main .main-movie .movie-title {
-    font-size: 22px;
+  main .main-bootcamp .bootcamp-title {
+    font-size: 20px;
   }
 
-  main .main-movie .movie-description {
+  main .main-bootcamp .bootcamp-description {
     font-size: 10px;
   }
 }
 
 @media screen and (max-width: 585px) {
-  main .main-movie .movie-title {
+  main .main-bootcamp .bootcamp-title {
     font-size: 18px;
   }
   
   .button-wacth, .button-info {
-    width: 80px;
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 
 @media screen and (max-width: 520px) {
-  main .main-movie .movie-title {
+  main .main-bootcamp .bootcamp-title {
     font-size: 16px;
   }
 
   .button-wacth, .button-info {
-    width: 60px;
     font-size: 7px;
   }
 }
 
 @media screen and (max-width :480px) {
-  main .main-movie .movie-title {
+  main .main-bootcamp .bootcamp-title {
     font-size: 14px;
   }
 
-  main .main-movie .movie-description {
-    font-size: 8px;
+  main .main-bootcamp .bootcamp-description {
+    font-size: 9px;
   }
 }
 
@@ -67,12 +64,12 @@
     font-size: 12px;
   }
 
-  main .main-movie .movie-title {
+  main .main-bootcamp .bootcamp-title {
     font-size: 12px;
   }
 
-  main .main-movie .movie-description {
-    font-size: 6px;
+  main .main-bootcamp .bootcamp-description {
+    font-size: 8px;
   }
 }
 
